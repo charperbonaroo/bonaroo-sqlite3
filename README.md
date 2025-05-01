@@ -14,3 +14,12 @@ expect(db.all("SELECT * FROM users"))
 ```
 
 Sqlite3 made even simpler. Relies on [`better-sqlite3`](https://github.com/WiseLibs/better-sqlite3), will use `node:sqlite` in the future.
+
+## Publish
+
+Don't forget to increment the version
+
+```
+npm publish --dry-run
+npm publish
+```

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "packageManager": "yarn@4.9.1",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "yarn build && yarn build"
   },
   "dependencies": {
     "better-sqlite3": "^11.9.1"

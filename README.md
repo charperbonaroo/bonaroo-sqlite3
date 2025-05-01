@@ -19,7 +19,8 @@ Sqlite3 made even simpler. Relies on [`better-sqlite3`](https://github.com/WiseL
 
 Don't forget to increment the version
 
-```
+```sh
+npm whoami # bonaroo
 npm publish --dry-run
 npm publish
 ```
